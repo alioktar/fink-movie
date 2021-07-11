@@ -1,0 +1,60 @@
+.poster {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster .thumbnail {
+    height: 544px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    flex-direction: column;
+}
+
+.poster .thumbnail>img {
+    flex: 1;
+    object-fit: contain;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster .thumbnail .watch-btn {
+    padding: 8px 90px;
+    background-color: #61BFAD;
+}
+
+.poster .thumbnail .watch-btn .netflix-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+}
+
+.poster .thumbnail .watch-btn .watch-btn-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.poster .thumbnail .watch-btn .watch-btn-text span {
+    font-weight: 500;
+}
+
+.poster .another-btn {
+    font-weight: 500;
+    padding: 20px 90px;
+    border-radius: 10px;
+    background-color: #E54B4B;
+    font-family: 'Roboto',
+        sans-serif;
+}
